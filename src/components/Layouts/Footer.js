@@ -31,13 +31,13 @@ const Footer = () => {
 
 
                 <Stack direction={'row'} spacing={6}>
-                    <IconButton isRound='true' as={'a'} href={'https://github.com/jigar-sable'} target='_blank' bg={'gray.300'}>
+                    <IconButton isRound='true' as={'a'} href={'https://github.com/akshatmaheshwari1702'} target='_blank' bg={'gray.300'}>
                         <FaGithub />
                     </IconButton>
-                    <IconButton isRound='true' as={'a'} href={'https://www.linkedin.com/in/jigar-sable/'} target='_blank' colorScheme={'blue'}>
+                    <IconButton isRound='true' as={'a'} href={'https://www.linkedin.com/in/akshat-maheshwari--/'} target='_blank' colorScheme={'blue'}>
                         <FaLinkedin />
                     </IconButton>
-                    <IconButton isRound='true' as={'a'} href={'https://www.instagram.com/jigarsable_/'} target='_blank' colorScheme={'pink'}>
+                    <IconButton isRound='true' as={'a'} href={'https://www.instagram.com/__akshat_maheshwari__/'} target='_blank' colorScheme={'pink'}>
                         <FaInstagram />
                     </IconButton>
 
