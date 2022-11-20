@@ -50,7 +50,7 @@ const ResumePreview = () => {
 
             <VStack m={4} alignItems={"flex-start"} spacing={0.5}>
               <Heading as="h4" size="md">
-                {about.name ? about.name : "Jhon Doe"}
+                {about.name ? about.name : "Akshat Maheshwari"}
               </Heading>
               <Text color={"gray.500"}>
                 {about.role ? about.role : "Full Stack Web Developer"}
@@ -66,7 +66,7 @@ const ResumePreview = () => {
           >
             <HStack spacing={1}>
               <MdMail />{" "}
-              <Text>{about.email ? about.email : "jhondoe@gmail.com"}</Text>
+              <Text>{about.email ? about.email : "akshat@gmail.com"}</Text>
             </HStack>
             <HStack spacing={1}>
               <MdLocalPhone />{" "}
@@ -95,7 +95,7 @@ const ResumePreview = () => {
             spacing={1}
           >
             <VStack mx={2} alignItems={"flex-start"} w={"full"} spacing={6}>
-              // EDUCATION
+              {/* EDUCATION */}
               <VStack alignItems={"flex-start"}>
                 <Heading as="h4" size="md" color={"gray.700"}>
                   EDUCATION
@@ -132,7 +132,7 @@ const ResumePreview = () => {
                   );
                 })}
               </VStack>
-              // EDUCATION // WORK EXPERIENCE
+              {/* // EDUCATION // WORK EXPERIENCE */}
               <VStack alignItems={"flex-start"}>
                 <Heading as="h4" size="md" color={"gray.700"}>
                   WORK EXPERIENCE
@@ -175,11 +175,11 @@ const ResumePreview = () => {
                   );
                 })}
               </VStack>
-              // WORK EXPERIENCE
+              {/* // WORK EXPERIENCE */}
             </VStack>
 
             <VStack mx={2} alignItems={"flex-start"} w={"full"} spacing={6}>
-              // SKILLS
+              {/* // SKILLS */}
               <VStack alignItems={"flex-start"}>
                 <Heading as="h4" size="md" color={"gray.700"}>
                   SKILLS
@@ -198,7 +198,7 @@ const ResumePreview = () => {
                   ))}
                 </Wrap>
               </VStack>
-              // SKILLS // PROJECTS
+              {/* // SKILLS // PROJECTS */}
               <VStack alignItems={"flex-start"}>
                 <Heading as="h4" size="md" color={"gray.700"}>
                   PROJECTS
@@ -232,7 +232,7 @@ const ResumePreview = () => {
                   );
                 })}
               </VStack>
-              // PROJECTS
+              {/* // PROJECTS */}
             </VStack>
           </HStack>
         </div>
